@@ -30,7 +30,9 @@ st.markdown(
 authenticate.set_st_state_vars()
 
 # Add login/logout buttons
-if st.session_state["authenticated"]:
-    authenticate.button_logout()
-else:
-    authenticate.button_login()
+# if st.session_state["authenticated"]:
+#     authenticate.button_logout()
+# else:
+#     authenticate.button_login()
+
+authenticate.button_login()
